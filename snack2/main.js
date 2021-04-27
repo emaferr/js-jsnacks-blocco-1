@@ -5,7 +5,7 @@ var word_2 = prompt("Inserisci un'altra parola");
 if(word_1.length === word_2.length){
     console.log("Le parole sono uguali riprova");
 }else if (word_1.length > word_2.length){
-    console.log(word_1);
+    console.log(word_2, word_1);
 }else {
-    console.log(word_2);
+    console.log(word_1, word_2);
 }
