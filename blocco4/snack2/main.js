@@ -2,8 +2,8 @@
 
 var TriangoloRettangolo = {
 
-    base : 50,
-    altezza : 100
+    base : 100,
+    altezza : 80
 
 }
 
@@ -17,7 +17,7 @@ var perimetro = parseInt(ipotenusa + TriangoloRettangolo.base + TriangoloRettang
 
 console.log(perimetro);
 
-var area = parseInt( (ipotenusa * TriangoloRettangolo.altezza ) / 2) ;
+var area = parseInt( (TriangoloRettangolo.base * TriangoloRettangolo.altezza ) / 2) ;
 
 console.log(area);
 
