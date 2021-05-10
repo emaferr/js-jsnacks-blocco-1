@@ -4,8 +4,8 @@
 
 var palla = {
 
-    nome : palla ;
-    peso : 10 ;
+    nome : "palla" ,
+    peso : 10 
 
 }
 
