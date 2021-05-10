@@ -11,6 +11,8 @@ var ipotenusa = parseInt(Math.sqrt(Math.pow(TriangoloRettangolo.base, 2) + Math.
 
 console.log(ipotenusa);
 
+// Calcolare perimetro e area.
+
 var perimetro = parseInt(ipotenusa + TriangoloRettangolo.base + TriangoloRettangolo.altezza) ;
 
 console.log(perimetro);
@@ -19,5 +21,3 @@ var area = parseInt( (ipotenusa * TriangoloRettangolo.altezza ) / 2) ;
 
 console.log(area);
 
-// Calcolare perimetro e area.
-// (ripassiamo il Teorema di Pitagora ;D )
